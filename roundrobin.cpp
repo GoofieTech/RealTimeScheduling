@@ -24,7 +24,6 @@ int main()
         cin>>allProcesses[i].et;
         allProcesses[i].rem_bt = allProcesses[i].et;
     }
-
     while(1)
     {
         done = true;
@@ -50,7 +49,6 @@ int main()
                 }
             }
         }
-
         if(done)
         {
             break;
@@ -73,6 +71,6 @@ int main()
 
      cout << "Average waiting time = "
          << avg_wt;
-    cout << "\nAverage turn around time = "
+     cout << "\nAverage turn around time = "
          << avg_tat;
 }
