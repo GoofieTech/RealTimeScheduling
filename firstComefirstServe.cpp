@@ -29,7 +29,7 @@ int main()
     total_tat += allProcesses[0].tat;
     total_wt += allProcesses[0].wt;
 
-    for(int i=1; i<n ; i++)
+    for(int i = 1; i < n ; i++)
     {
         if(allProcesses[i].rt <= allProcesses[i-1].endtime)
         {
